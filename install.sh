@@ -2,7 +2,7 @@
 
 #######
 ## Openshift 3.11 install script
-## Author srikant noorani @ broadcom.com
+## Author srikant noorani
 ## Dec 16th, 2020
 ########
 
