@@ -92,7 +92,7 @@ verifyOSENodes () {
 
 onOSEFailures () {
 	echo "When OSE fails - do the following two "
-	echo "    nameserver 192.19.189.30 > /etc/origin/node/resolv.conf "
+	echo "    nameserver <YOUR_NAMESERVER> > /etc/origin/node/resolv.conf "
 	echo "    open /root/openshift-ansible/roles/calico/tasks/certs.yml and remove \"become\" in line 24"
 }
 
